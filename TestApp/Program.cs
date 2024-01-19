@@ -1,6 +1,7 @@
 ﻿using System.Data;
 
+Console.WriteLine("Welcome to me program");
 var table = new DataTable();
-var result = table.Compute("3+3-(1+5) / 2 * 112 + 99.4344", string.Empty);
-Console.WriteLine("don't fuck");
+var result = table.Compute("3+3-(1+5) + 99.43", string.Empty);
+Console.WriteLine("I don't know");
 Console.Write(result);

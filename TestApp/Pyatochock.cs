@@ -1,6 +1,6 @@
 namespace TestApp;
 
-public class Pyatochock
+public class Pyatochock228
 {
     public string Name { get; set; }
     public int Zavitushki { get; set; }
